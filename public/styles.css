@@ -29,22 +29,18 @@ a, h1, p, th, td {
     padding: 1em;
 }
 
-
+#clear-button {
+    background-color: black;
+    color: goldenrod;
+    margin-bottom: 2vh;
+    /* border: 1px goldenrod solid; */
+}
 
 .center-me {
     display: flex;
     align-items: center;
     justify-content: center;
     flex-direction: column;
-}
-
-
-.card-navigation-div {
-    display: flex;
-    justify-content: center;
-    /* justify-content: space-between; */
-    width: 17em;
-    margin-top: 5vh;
 }
 
 
@@ -105,7 +101,15 @@ h2 {
     height: 18vw;
 }
 
+.navigation-div {
+    display: flex;
+    justify-content: center;
+    /* justify-content: space-between; */
+    margin-top: 5vh;  
+    margin-bottom: 5vh;
+    width: 17em;
 
+}
 
 #poster-container {
     display: flex; 

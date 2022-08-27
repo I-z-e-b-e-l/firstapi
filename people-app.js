@@ -10,11 +10,7 @@ function getInfo() {
         .then((response)=>{
             peopleData = response.data.results;
 
-            console.log(peopleData)
-
             for (let i = 0; i < peopleData.length; i++){
-
-                console.log(peopleData[i])
 
                 let table = document.getElementById("character-table");
                 let tr = document.createElement("tr");

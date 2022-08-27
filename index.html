@@ -27,27 +27,29 @@
     
     <div id="poster-container">
 
-        <button id="e4_button" name="e4_button" class="button">
+        <button id="e4_button" name="e4_button" value="https://swapi.dev/api/films/1" class="button" onclick="getInfo(this.value)">
             <img class="moviePoster" alt= "1996 poster for the Star Wars: A New Hope movie" src="/public/images/SW1996.jpg">
         </button>
 
-        <button id="e5_button" name="e5_button" class="button">
+        <button id="e5_button" name="e5_button" value="https://swapi.dev/api/films/2" class="button" onclick="getInfo(this.value)">
             <img class="moviePoster" alt= "1980 poster for the Star Wars: The Empire Strikes Back movie" src="/public/images/ESW1980.jpg">
         </button>
 
-        <button id="e6_button" name="e6_button" class="button">
+        <button id="e6_button" name="e6_button" value="https://swapi.dev/api/films/3" class="button" onclick="getInfo(this.value)">
             <img class="moviePoster" alt= "1983 poster for the Star Wars: Return of the Jedi movie" src="/public/images/RJ1983.jpg">
         </button>
 
-        <button id="e1_button" name="e1_button" class="button">
+        <button id="e1_button" name="e1_button" value="https://swapi.dev/api/films/4" class="button" onclick="getInfo(this.value)">
             <img class="moviePoster" alt= "1999 poster for the Star Wars: The Phantom Menace movie" src="/public/images/PM1999.jpg">
         </button>
 
-        <button id="e2_button" name="e2_button" class="button">
+        <button id="e2_button" name="e2_button" value="https://swapi.dev/api/films/5" class="button" onclick="getInfo(this.value)">
             <img class="moviePoster" alt= "2002 poster for the Star Wars: Attack of the Clones movie" src="/public/images/AC2002.jpg">            
         </button>
 
-        <button id="e3_button" name="e3_button" class="button">
+        <button id="e3_button" name="e3_button" 
+        value="https://swapi.dev/api/films/6" 
+        class="button" onclick="getInfo(this.value)">
             <img class="moviePoster" alt= "2005 poster for the Star Wars: Revenge of the Sith movie" src="/public/images/RS2005.jpg">
         </button>
 
@@ -55,10 +57,15 @@
 
     </div>
 
-        <div class="center-me">
+    <div class="center-me">
         
+
             
         <div id="info-box">
+
+
+
+
             <p>Title:</p>
             <p id="title" class="info"></p>
 
@@ -74,7 +81,18 @@
             </ul>
 
             <p id="planets-paragraph" class="info"></p>
+
+            <div class="center-me">
+                <button id="clear-button" onClick="window.location.reload();">Clear Data</button>
+            </div>
+
+
         </div>
+
+        <div class="navigation-div">
+            <a href="characters.html">View Some Characters</a>
+        </div>
+
     </div>
 
 
@@ -83,7 +101,7 @@
 
     <script src="https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js"></script>
 
-    <script src="new-app.js" charset="utf-8"></script>
+    <script src="new-app-dynamic.js" charset="utf-8"></script>
 
 
 </body>
