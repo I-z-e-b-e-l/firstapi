@@ -31,6 +31,10 @@ Me rn:
 
 
 ## ✨To use:
+- Visit the deployed website at: [https://i-z-e-b-e-l.github.io/firstapi/](https://i-z-e-b-e-l.github.io/firstapi/)
+
+**OR**
+
 - Clone the repo to your desired location on your device. Best viewing experience on tablets and laptops.
 - Navigate to the top level of the directory.
 - Run the index.html in a browser. 
