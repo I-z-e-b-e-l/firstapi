@@ -49,9 +49,7 @@ function getInfo(val) {
 
                         let li = document.createElement("li");
                         li.innerHTML=charactersData.name;
-                        // come back here 
                         charactersUl.appendChild(li);
-
                     })
             } 
 
@@ -66,9 +64,6 @@ function updateInfo(data){
 
     let title = document.querySelector('#title');
     title.innerText = data.title
-
-    console.log(data.release_date)
-
 
     let rDate = document.querySelector('#rDate');
     rDate.innerText = new Date(data.release_date).toDateString()
