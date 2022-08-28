@@ -5,8 +5,8 @@
 The website retrieves information from SWAPI at the user's request and displays it on the webpage. This project is built by Izebel. 
 
 ## ✨Features
- - View information about six Star Wars movies
- - View infromatio about Star Wars characters
+ - View information about six Star Wars movies by clicking a movie poster. Hit the "Clear Data & Click Another" button before viewing another.
+ - View information about Star Wars characters by visiting the More Characters page.
 
 ## ✨Technologies Used
 - JavaScript
@@ -26,3 +26,15 @@ The website retrieves information from SWAPI at the user's request and displays 
 - Clone the repo to your desired location on your device. Best viewing experience on tablets and laptops.
 - Navigate to the top level of the directory.
 - Run the index.html in a browser. 
+
+
+## ✨Credits:
+-  Background image: https://unsplash.com/@weirick
+- Episode 4 poster by Drew Struzan (1996) © Lucasfilm
+- Episode 5 poster by Tom Jung (1980) © Lucasfilm
+- Episode 6 poster by Kazo Sano (1983) © Lucasfilm
+- Episode 1 poster by Drew Struzan (1999) © Lucasfilm
+- Episode 1 poster by Drew Struzan (2002) © Lucasfilm
+- Episode 1 poster by Drew Struzan (2005) © Lucasfilm
+
+
