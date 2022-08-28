@@ -1,34 +1,39 @@
 #### A web development project utilizing the Star Wars API (SWAPI)
 
 
-## ✨Overview
+## ✨Overview:
 The website retrieves information from SWAPI at the user's request and displays it on the webpage. This project is built by Izebel. 
 
-## ✨Features
+## ✨Features:
  - View information about six Star Wars movies by clicking a movie poster. 
  - View information about Star Wars characters by visiting the More Characters page.
 
-## ✨Technologies Used
+## ✨Technologies Used:
 - JavaScript
 - Axios
 - HTML
 - CSS
 
-## ✨Things I learned about working on this project
+## ✨Things I learned about working on this project:
 - Axios - first time using
 - Many Axios errors
 - To check the Network tab in dev tools to see what came through from the API that might not be displayed
 - JavaScipt promises - first time using
-- How to make dynamic elements with vanilla JavaScript using .createElement and .appendChild() 
+- How to make and remove dynamic elements with vanilla JavaScript using .createElement, .appendChild, and .removeChild 
+
+Me learning about promises:
+
+![R2D2 overloading](r2d2.gif)
+
+Me rn: 
+
+![Anakin in a podracer shouting "It's Working!"](working.gif)
 
 
 ## ✨To use:
 - Clone the repo to your desired location on your device. Best viewing experience on tablets and laptops.
 - Navigate to the top level of the directory.
 - Run the index.html in a browser. 
-
-
-![](working.gif)
 
 
 ## ✨Credits:

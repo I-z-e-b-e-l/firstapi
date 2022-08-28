@@ -67,9 +67,11 @@ function updateInfo(data){
     let title = document.querySelector('#title');
     title.innerText = data.title
 
-    let rDate = document.querySelector('#rDate');
-    rDate.innerText = data.release_date
+    console.log(data.release_date)
 
+
+    let rDate = document.querySelector('#rDate');
+    rDate.innerText = new Date(data.release_date).toDateString()
 } 
 
 
