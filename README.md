@@ -28,6 +28,9 @@ The website retrieves information from SWAPI at the user's request and displays 
 - Run the index.html in a browser. 
 
 
+![](working.gif)
+
+
 ## ✨Credits:
 -  Background image: https://unsplash.com/@weirick
 - Episode 4 poster by Drew Struzan (1996) © Lucasfilm
