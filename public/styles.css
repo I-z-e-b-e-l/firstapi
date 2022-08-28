@@ -1,0 +1,124 @@
+body {
+    background-image: url("./images/star-bg.jpg");
+    background-color: black;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+
+
+a, h1, p, th, td {
+    color: goldenrod;
+    font-family: 'Quattrocento Sans', sans-serif;
+}
+
+.button {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    background-color: black;
+}
+
+.card-info-box {
+    min-width: 35vw;
+    max-width: 90vw;
+    min-height: 300px;
+    border: 1px solid goldenrod;
+    margin-bottom: 5vh;
+    margin-top: 25vh;
+    padding: 1em;
+}
+
+#clear-button {
+    background-color: black;
+    color: goldenrod;
+    margin-bottom: 2vh;
+    margin-top: 2vh;
+}
+
+.center-me {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+
+#directions-text {
+    margin: 4vh;
+    margin-top: 5vh;
+}
+
+h1 {
+    margin-top: 10vh;
+}
+
+
+h2 {
+    color: rgb(47, 187, 206);
+    font-family: 'Quattrocento Sans', sans-serif;
+}
+
+#index-sw-logo {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 10%;
+}
+
+.info {
+    color: goldenrod;
+    font-family: 'Quattrocento Sans', sans-serif;
+    margin-left: 1em;
+}
+
+#info-box {
+    width: 90%;
+    min-height: 300px;
+    border: 1px solid goldenrod;
+    margin-bottom: 5%;
+    padding: 1em;
+    display: none;
+}
+
+.info-table, tr {
+    border: 1px solid goldenrod;
+    border-collapse: collapse;
+    margin-top: 5vh;
+    margin-bottom: 5%;
+    padding: 1em;
+}
+
+#landing-text {
+    margin-top: 30vh;
+    margin-bottom: 55vh;
+    font-size: 2em;
+}
+
+
+.moviePoster {
+    height: 18vw;
+}
+
+.navigation-div {
+    display: flex;
+    justify-content: center;
+    /* justify-content: space-between; */
+    margin-top: 5vh;  
+    margin-bottom: 5vh;
+    width: 17em;
+
+}
+
+#poster-container {
+    display: flex; 
+    justify-content: space-around;
+    margin: 4vh;
+}
+
+
+th, td {
+    padding: 2em
+}
+
+
