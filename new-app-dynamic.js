@@ -1,11 +1,7 @@
-let e4_button = document.querySelector('#e4_button');
-
-let e5_button = document.querySelector('#e5_button');
-
 
 function getInfo(val) {
-    
-    console.log(val)
+
+    document.getElementById("info-box").style.display="block";
 
     const url = val;
     let movieData;
@@ -17,6 +13,17 @@ function getInfo(val) {
 
             let planetsArray = response.data.planets;
 
+
+            let planetUl = document.getElementById("planetUl")
+            while (planetUl.hasChildNodes()){
+                planetUl.removeChild(planetUl.firstChild)
+            }
+
+            let  charactersUl = document.getElementById("charactersUl")
+            while (charactersUl.hasChildNodes()){
+                charactersUl.removeChild(charactersUl.firstChild)
+            }
+
             for (let i = 0; i < planetsArray.length; i++){
 
                 axios
@@ -24,9 +31,9 @@ function getInfo(val) {
                     .then((planetResponse)=>{
                         planetData = planetResponse.data;
 
-                        let li = document.createElement("li");
-                        li.innerHTML=planetData.name;
-                        document.getElementById("planetUl").appendChild(li);
+                        let planetli = document.createElement("li");
+                        planetli.innerHTML=planetData.name;
+                        planetUl.appendChild(planetli);
 
                     })
             } 
@@ -42,7 +49,8 @@ function getInfo(val) {
 
                         let li = document.createElement("li");
                         li.innerHTML=charactersData.name;
-                        document.getElementById("charactersUl").appendChild(li);
+                        // come back here 
+                        charactersUl.appendChild(li);
 
                     })
             } 
@@ -56,18 +64,12 @@ function getInfo(val) {
 
 function updateInfo(data){
 
-
-
     let title = document.querySelector('#title');
     title.innerText = data.title
 
     let rDate = document.querySelector('#rDate');
     rDate.innerText = data.release_date
 
-
-
 } 
 
-// e4_button.addEventListener('click', getInfo)
 
-// e5_button.addEventListener('click', getInfo)

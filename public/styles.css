@@ -33,7 +33,7 @@ a, h1, p, th, td {
     background-color: black;
     color: goldenrod;
     margin-bottom: 2vh;
-    /* border: 1px goldenrod solid; */
+    margin-top: 2vh;
 }
 
 .center-me {
@@ -74,11 +74,11 @@ h2 {
 
 #info-box {
     width: 90%;
-    /* width: 150px; */
     min-height: 300px;
     border: 1px solid goldenrod;
     margin-bottom: 5%;
     padding: 1em;
+    display: none;
 }
 
 .info-table, tr {
@@ -97,7 +97,6 @@ h2 {
 
 
 .moviePoster {
-    /* height: 300px; */
     height: 18vw;
 }
 

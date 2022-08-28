@@ -5,7 +5,7 @@
 The website retrieves information from SWAPI at the user's request and displays it on the webpage. This project is built by Izebel. 
 
 ## ✨Features
- - View information about six Star Wars movies by clicking a movie poster. Hit the "Clear Data & Click Another" button before viewing another.
+ - View information about six Star Wars movies by clicking a movie poster. 
  - View information about Star Wars characters by visiting the More Characters page.
 
 ## ✨Technologies Used
